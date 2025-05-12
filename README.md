@@ -9,6 +9,7 @@ Weather Buddy is a simple and intuitive weather application that provides real-t
 - 🎨 User-friendly interface with an interactive experience.
   
 🔧 Installation
+
 To set up Weather Buddy on your local machine, follow these steps:
 - Clone the repository:
 git clone https://github.com/kawadeIshwar/Weather-Buddy.git
@@ -20,14 +21,17 @@ npm install
 npm run dev
 
 🛠️ Technologies Used
+
 - React.js for the front end
 - OpenWeather API for weather data
 - MaterialUI for styling
   
 📜 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 🤝 Contributing
+
 Contributions are welcome! If you'd like to improve Weather Buddy, follow these steps:
 - Fork the repository.
 - Create a feature branch (git checkout -b feature-name).
