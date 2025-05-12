@@ -42,5 +42,5 @@ Contributions are welcome! If you'd like to improve Weather Buddy, follow these 
 ## 📬 Contact
 If you have any questions or suggestions, feel free to reach out:
 - GitHub: @kawadeIshwar
-- Linkedin: Iswhar Kawade
+- Linkedin: Ishwar Kawade
 I hope this helps! Let me know if you'd like any modifications. 🚀
