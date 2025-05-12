@@ -20,17 +20,17 @@ npm install
 - Start the application:
 npm run dev
 
-🛠️ Technologies Used
+## Technologies Used🛠️
 
 - React.js for the front end
 - OpenWeather API for weather data
 - MaterialUI for styling
   
-📜 License
+## License📜
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🤝 Contributing
+ ## Contributing🤝
 
 Contributions are welcome! If you'd like to improve Weather Buddy, follow these steps:
 - Fork the repository.
@@ -39,7 +39,7 @@ Contributions are welcome! If you'd like to improve Weather Buddy, follow these 
 - Push the branch (git push origin feature-name).
 - Open a Pull Request.
   
-📬 Contact
+## 📬 Contact
 If you have any questions or suggestions, feel free to reach out:
 - GitHub: @kawadeIshwar
 
