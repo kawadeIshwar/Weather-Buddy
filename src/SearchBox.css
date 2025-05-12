@@ -1,0 +1,29 @@
+.SearchBox{
+    text-align: center;
+    margin: 25px;
+    background-color: rgba(255, 255, 255, 0.525);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-left: 350px;
+    border-radius: 30px;
+    border: 1px dotted rgb(202, 215, 255);
+    box-shadow: 1px 1px 22px rgb(255, 255, 255);
+    
+}
+
+.SearchBox:hover{
+    background-color: rgba(255, 255, 255, 0.623);
+    border: 1px dotted rgb(202, 215, 255);
+    box-shadow: 1px 1px 22px rgb(255, 255, 255);
+
+}
+
+button {
+    background: linear-gradient(135deg, #2196f3, #21cbf3);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  
+
+  

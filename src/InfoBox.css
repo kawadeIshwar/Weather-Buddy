@@ -1,0 +1,160 @@
+.InfoBox{
+    text-align: center;
+    /* border: 2px solid black; */
+    height: 400px;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 150px;
+    height: 370px;
+    width: 1200px;
+    border-radius: 30px; 
+    background-color: rgba(255, 255, 255, 0.553);
+    box-shadow: 1px 1px 25px rgb(255, 255, 255);
+}
+
+.cardContainer:hover{
+    background-color: rgba(255, 255, 255, 0.623);
+    box-shadow: 1px 1px 22px rgb(255, 255, 255);
+    transform: 0.7s;
+    
+    
+}
+
+.temp{
+    margin: 240px 205px 5px 15px;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(197, 237, 247, 0.598);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.215);
+    box-shadow: 1px 1px 22px rgb(255, 255, 255);
+    position: absolute;
+}
+
+.temp:hover{
+    border: 2px solid rgba(57, 91, 202, 0.215);
+    background-color: rgba(52, 92, 180, 0.598);
+    box-shadow: 1px 1px 22px rgb(22, 70, 142);
+}
+.cityName{
+    margin: 5px 100px 200px 100px;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(42, 74, 143, 0.598);
+    border-radius: 30px;
+    border: 2px solid rgba(57, 91, 202, 0.215);
+    box-shadow: 1px 1px 22px rgb(22, 70, 142);
+    position: absolute;
+    
+}
+.cityName:hover{
+    border: 2px solid rgba(57, 91, 202, 0.215);
+    background-color: rgba(52, 92, 180, 0.598);
+    box-shadow: 1px 1px 22px rgb(22, 70, 142);
+}
+
+.Humidity{
+    margin: 240px 5px 5px 260px;
+    width: 170px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(197, 237, 247, 0.598);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.215);
+    box-shadow: 1px 1px 22px rgb(255, 255, 255);
+    position: absolute;
+}
+
+.Humidity:hover{
+    border: 2px solid rgba(57, 91, 202, 0.215);
+    background-color: rgba(52, 92, 180, 0.598);
+    box-shadow: 1px 1px 22px rgb(22, 70, 142);
+}
+
+.Min-Temp{
+    margin: 240px 5px 5px 680px;
+    width: 220px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(197, 237, 247, 0.598);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.215);
+    box-shadow: 1px 1px 22px rgb(255, 255, 255);
+    position: absolute;
+}
+
+.Min-Temp:hover{
+    border: 2px solid rgba(57, 91, 202, 0.215);
+    background-color: rgba(52, 92, 180, 0.598);
+    box-shadow: 1px 1px 22px rgb(22, 70, 142);
+}
+
+.Max-Temp{
+    margin: 240px 700px 5px 10px;
+    width: 220px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(197, 237, 247, 0.598);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.215);
+    box-shadow: 1px 1px 22px rgb(255, 255, 255);
+    position: absolute;   
+}
+
+.Max-Temp:hover{
+    border: 2px solid rgba(57, 91, 202, 0.215);
+    background-color: rgba(52, 92, 180, 0.598);
+    box-shadow: 1px 1px 22px rgb(22, 70, 142);
+}
+
+.feels-like{
+    margin: 40px 5px 5px 5px;
+    width: 900px;
+    text-wrap: wrap;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(197, 237, 247, 0.598);
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.215);
+    box-shadow: 1px 1px 22px rgb(255, 255, 255);
+    position: absolute;
+}
+.feels-like:hover{
+    border: 2px solid rgba(57, 91, 202, 0.215);
+    background-color: rgba(52, 92, 180, 0.598);
+    box-shadow: 1px 1px 22px rgb(22, 70, 142);
+}
+
+h1, h2, p {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .result-box {
+    animation: fadeIn 0.8s ease-in-out;
+  }
+
