@@ -1,4 +1,4 @@
-#🌦️Weather Buddy
+# 🌦️Weather Buddy
 
 Weather Buddy is a simple and intuitive weather application that provides real-time weather updates and forecasts for locations worldwide. Whether you need current conditions, weekly forecasts, or detailed meteorological data, Weather Buddy has got you covered!
 
